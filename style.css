@@ -1,0 +1,23 @@
+.drawing-board{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 500px;
+    min-height: 500px;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.grid{
+    border: 1px solid black;
+    flex: 1 1 auto;
+}
+
+
+
+
+.row{
+    display: flex;
+    flex: 1 1 auto;
+}
