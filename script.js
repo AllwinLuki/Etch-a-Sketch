@@ -3,17 +3,6 @@ const resetButton = document.querySelector('.reset');
 const rainbowButton = document.querySelector('.rainbow');
 const fadeButton = document.querySelector('.fade');
 
-fadeButton.addEventListener('click', () => {
-    let pickColor = document.querySelector('.pick-color');
-    let selectedColor = pickColor.value;
-    grids = document.querySelectorAll('.grid'); 
-    grids.forEach((grid) => {
-        selectedColor.setAttribute('style', 'filter: brightness(90%)')
-            grid.addEventListener('mouseenter', () => {
-            grid.setAttribute('style', `background: ${selectedColor}`);
-            })
-        });
-})
 
 rainbowButton.addEventListener('click', () => {
     let grids = document.querySelectorAll('.grid'); 

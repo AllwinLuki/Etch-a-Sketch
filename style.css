@@ -1,3 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    align-items: center;
+}
+
+.setting-bar{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
 .drawing-board{
     display: flex;
     flex-direction: column;
@@ -13,9 +40,6 @@
     border: 1px solid black;
     flex: 1 1 auto;
 }
-
-
-
 
 .row{
     display: flex;
