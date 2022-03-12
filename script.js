@@ -1,7 +1,6 @@
 const drawingBoard = document.querySelector('.drawing-board');
 const resetButton = document.querySelector('.reset');
 const rainbowButton = document.querySelector('.rainbow');
-const fadeButton = document.querySelector('.fade');
 
 
 rainbowButton.addEventListener('click', () => {

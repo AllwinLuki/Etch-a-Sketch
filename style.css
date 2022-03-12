@@ -3,6 +3,17 @@ body{
     flex-direction: column;
     gap: 30px;
     align-items: center;
+    background-color: aliceblue;
+}
+
+.color{
+    display: flex;
+    gap: 5px;
+}
+
+button{
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p{
